@@ -1,0 +1,65 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #2793c1;
+    background-image: linear-gradient(to right, #020202, #19241d, #194f01);
+}
+h1, h2, h3{
+    font-family: "Lobster", cursive;
+}
+
+h2{
+    color: #0373a3;
+}
+
+header h2, header h1{
+    color: #0373a3;
+}
+
+.jumbotron{
+    margin: 0;
+    padding: 30px;
+    background-image: repeating-conic-gradient(#020202 10%, #19241d 20%, #194f01 30%);
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #020202, #19241d, #194f01);
+}
+
+a,a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.card{
+    background-image: repeating-conic-gradient(#020202 10%, #19241d 20%, #194f01 30%);
+    border: 5px ridge;
+    border-color:#19241d;
+}
+
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.card-img {
+    background-image: linear-gradient(to right, #020202d4, #293a2f, #2d6b10);
+    overflow: hidden;
+    background-image: url("https://i.hizliresim.com/mX07R4.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+    object-fit: fill;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.5);
+    padding: 0;
+}
